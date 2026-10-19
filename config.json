@@ -1,0 +1,25 @@
+﻿{
+    "input": {
+        "source": "videos/sample.mp4"
+    },
+    "detection": {
+        "skip_frames": 15,
+        "confidence": 0.5
+    },
+    "recognition": {
+        "similarity_threshold": 0.5
+    },
+    "tracking": {
+        "max_missing_frames": 30
+    },
+    "database": {
+        "path": "data/database.db"
+    },
+    "logging": {
+        "event_log": "events.log"
+    },
+    "storage": {
+        "entry_images": "logs/entries",
+        "exit_images": "logs/exits"
+    }
+}
